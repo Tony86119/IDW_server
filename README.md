@@ -14,7 +14,7 @@ User guide
 you should let your points like the following format: 
 [[X,Y,Z],[X,Y,Z],[X,Y,Z],[X,Y,Z]......] 
 
-coordinate: WGS84 
+coordinate: WGS84   
 X: Lon  
 Y: Lat  
 Z: value  
