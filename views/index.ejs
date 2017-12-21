@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <style>
+    @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+    #container {
+      width: 100%;
+
+    }
+
+    #sidebar {
+      width: 40%;
+      height: 90%;
+      background-color: f2ebdd;
+      float: left;
+    }
+
+    #sidebody {
+      width: 60%; 
+      float: right;
+    }
+
+    h1 {
+      color: rgb(133, 133, 252);
+      font-family: 'Noto Sans TC', sans-serif;
+      font-weight: 500;
+    }
+
+    .content {
+      font-family: 'Noto Sans TC', sans-serif;
+      font-weight: 300;
+      margin-left: 10px;
+	  margin-right: 10px;
+
+    }
+
+    .readme {
+      margin-left: 50px;
+      width: 100%;
+      height: 200px;
+      font-family: Microsoft JhengHei;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="headbox"><h1>IDW計算</h1></div>
+  
+<div id="sidebar">
+    <div class="content">
+      <div> 控制點:
+        <div>
+          <textarea id="controlpoint" style="width:100% ;height:350px"></textarea>
+        </div>
+      </div>
+      </br>
+      <div>權重:
+        <input id="weight" ></input>
+      </div>
+      </br>
+      <div>網格大小:
+        <input id="cellsize"></input>
+      </div>
+      <button id="myBtn" style="font-family: 'Noto Sans TC', sans-serif;">計算</button>
+      
+    </div>
+	</div>
+	<div id="sidebody">
+    <div class="readme">說明:
+      <div>控制點格式為陣列，如範例:[[x,y,z],[x,y,z],[x,y,z],[x,y,z]...]</div>
+      <div>權重: 為控制點設置之權</div>
+      <div>網格大小: 內插點與點之間距，單位為公里</div>
+	  <div>成果:(僅輸出Z值)</div><div>
+        <textarea id="result" style="width:80% ;height:90%"></textarea>
+      </div>
+    </div>
+	
+
+  </div>
+</div>
+  <script src="/javascripts/function.js"></script>
+</body>
+
+
+</html>
