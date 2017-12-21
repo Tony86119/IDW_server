@@ -1,9 +1,9 @@
 # IDW_server
 
 I use the node.js to build this server which can send a request for getting the IDW result.   
-This server can easy to help you use the IDW adn get the IDW result.  
+This server can be easy to help you use the IDW adn get the IDW result.  
 Before using it, we can build the environment first.  
-Step 1. Use CMD in this folder:   
+Step 1. Use Command Line in this folder:   
 npm install   
 this can help u install the modules according to the package.json 
 Step 2. build this server:  
