@@ -7,7 +7,7 @@ Step 1. Use Command Line in this folder:</br>
 this can help u install the modules according to the package.json Step 2. build this server:</br>
 **node ./bin/www**</br>
 it can help u start this server. Finally, enjoy this tool to get your IDW result.</br>
-</br></br></br>
+</br>
 ## User guide</br>
 you should let your points like the following format: [[X,Y,Z],[X,Y,Z],[X,Y,Z],[X,Y,Z]......]</br>
 coordinate: WGS84</br>
